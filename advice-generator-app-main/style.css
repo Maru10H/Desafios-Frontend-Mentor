@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    overflow-y: hidden;
+}
+
+.dark-blue{
+    background-color: hsl(217, 19%, 24%);
+}
+
+.gray-blue{
+    background-color: hsl(217, 19%, 38%);
+}
+
+.cyan{
+    background-color:hsl(193, 38%, 86%);
+}
+
+.neon{
+    background-color: hsl(150, 100%, 66%);
+}
+
+.advice, .quote{
+    font-family: 'Manrope', sans-serif;
+}
+
+.advice{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing:3px;
+    font-size: 14px;
+}
+
+.quote{
+   color: hsl(193, 38%, 86%);
+   font-size: 28px;
+}
+
+.container-gral {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    position: relative;   
+    width: 37%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 2% 5%;
+}
+
+.divisor1{
+    width: 95%;
+}
+
+.divisor2{
+    display: none;
+}
+
+.boton{
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: calc(100% - 25px);
+    left: calc((100% - 50px)/2);
+   
+}
+
+.boton img{
+    width: 40%;
+    height: 40%;
+}
+
+.boton:hover{
+    box-shadow: 1px 2px 16px -3px hsl(150, 100%, 66%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width:375px){
+    .caja{
+        width: 90%;
+        height: 55%;
+    }
+
+    .divisor2{
+        display: block;
+        width: 95%;
+    }
+
+    .divisor1{
+        display: none;
+    }
+
+    .advice{
+        font-size: 12px;
+    }
+
+    .quote{
+        font-size: 22px;
+    }
+
+    .boton{
+        width: 60px;
+        height: 60px;
+        top: calc(100% - 30px);
+        left: calc((100% - 60px)/2);
+    }
+}
