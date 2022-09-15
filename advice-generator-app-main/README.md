@@ -1,6 +1,7 @@
 # Frontend Mentor - Advice generator app
 
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Advice generator app coding challenge](./Captura%20de%20pantalla%20de%202022-09-08%2022-41-08.png)
+
 
 ## El desafio
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
